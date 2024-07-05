@@ -15,41 +15,43 @@ for count in range(n):
 mostrar_lista = input('Deseja que seja mostrada a lista gerada? (S/N)\n')
 
 # Print da lista criada
-if mostrar_lista == 'S':
+if mostrar_lista == 'S' or mostrar_lista == 's':
     print(f'\nLista Original:\n{lista}\n')
 
 mostrar_lista_organizada = input('Deseja que seja mostrada a lista'
                                  ' organizada apos cada metodo? (S/N)\n')
+
+print()
 
 # Utilizacao dos metodos de ordenamento com seu tempo
 inicio = time.time()
 order_functions.bubble_sort(lista, mostrar_lista_organizada)
 fim = time.time()
 tempo = (fim - inicio) * 1000
-print(f'Tempo em milissegundos Bubble Sort: {tempo}')
+print(f'Tempo em milissegundos Bubble Sort: {tempo}\n')
 
 inicio = time.time()
 order_functions.selection_sort(lista, mostrar_lista_organizada)
 fim = time.time()
 tempo = (fim - inicio) * 1000
-print(f'Tempo em milissegundos Selection Sort: {tempo}')
+print(f'Tempo em milissegundos Selection Sort: {tempo}\n')
 
 inicio = time.time()
 order_functions.insertion_sort(lista, mostrar_lista_organizada)
 fim = time.time()
 tempo = (fim - inicio) * 1000
-print(f'Tempo em milissegundos Insertion Sort: {tempo}')
+print(f'Tempo em milissegundos Insertion Sort: {tempo}\n')
 
 inicio = time.time()
 order_functions.counting_sort(lista, mostrar_lista_organizada)
 fim = time.time()
 tempo = (fim - inicio) * 1000
-print(f'Tempo em milissegundos Counting Sort: {tempo}')
+print(f'Tempo em milissegundos Counting Sort: {tempo}\n')
 
 inicio = time.time()
 order_functions.merge_sort(lista)
-if mostrar_lista_organizada == 'S':
+if mostrar_lista_organizada == 'S' or mostrar_lista_organizada == 's':
     print(f'Merge Sort;\n{lista}')
 fim = time.time()
 tempo = (fim - inicio) * 1000
-print(f'Tempo em milissegundos Merge Sort: {tempo}')
+print(f'Tempo em milissegundos Merge Sort: {tempo}\n')

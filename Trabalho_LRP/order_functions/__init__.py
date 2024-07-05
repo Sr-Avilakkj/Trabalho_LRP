@@ -25,7 +25,7 @@ def bubble_sort(lista, mostrar_lista_organizada):
                 # Troca os elementos de posição
                 lista[j], lista[j + 1] = lista[j + 1], lista[j]
 
-    if mostrar_lista_organizada == 'S':
+    if mostrar_lista_organizada == 'S' or mostrar_lista_organizada == 's':
         print(f'Bubble Sort:\n{lista}')
 
 
@@ -38,7 +38,7 @@ def selection_sort(lista, mostrar_lista_organizada):
                 min_index = j
         lista[i], lista[min_index] = lista[min_index], lista[i]
 
-    if mostrar_lista_organizada == 'S':
+    if mostrar_lista_organizada == 'S' or mostrar_lista_organizada == 's':
         print(f'Selection Sort:\n{lista}')
 
 
@@ -51,7 +51,7 @@ def insertion_sort(lista, mostrar_lista_organizada):
             j -= 1
         lista[j + 1] = chave
 
-    if mostrar_lista_organizada == 'S':
+    if mostrar_lista_organizada == 'S' or mostrar_lista_organizada == 's':
         print(f'Insertion Sort:\n{lista}')
 
 
@@ -68,7 +68,7 @@ def counting_sort(lista, mostrar_lista_organizada):
             lista.append(i)
             count[i] -= 1
 
-    if mostrar_lista_organizada == 'S':
+    if mostrar_lista_organizada == 'S' or mostrar_lista_organizada == 's':
         print(f'Counting Sort:\n{lista}')
 
 
