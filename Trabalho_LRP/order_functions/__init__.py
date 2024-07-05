@@ -6,7 +6,7 @@ Sendo eles:
 
 - Bubble Sort
 - Selection Sort
-- Inserction Sort
+- Insertion Sort
 - Counting Sort
 - Merge Sort
 
