@@ -2,3 +2,8 @@
 
 ### Programa que utiliza os metodos de ordenamento de lista e apresenta o tempo de cada.
 (Bubble Sort, Selection Sort, Insertion Sort, Counting Sort, Merge Sort)
+
+
+Feito por:
+Isaac Ávila Diniz da Silva
+Pedro Lucas Lima Pierre
