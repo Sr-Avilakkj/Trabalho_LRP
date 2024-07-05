@@ -1,0 +1,38 @@
+C:\Users\isaac\PycharmProjects\Trabalho_LRP\.venv\Scripts\python.exe C:\Users\isaac\PycharmProjects\Trabalho_LRP\main.py 
+===============================================================================================
+
+Ola! Sou o programa que compara o tempo de alguns dos metodos de organizacao em Python.
+Sendo eles:
+
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+- Counting Sort
+- Merge Sort
+
+===============================================================================================
+
+Essa e a lista antes de personalizar:
+[]
+Agora vamos personaliza-la...
+Informe n (Tamanho da lista):
+20000
+Informe k (Limite dos valores dos elementos):
+20000
+Deseja que seja mostrada a lista gerada? (S/N)
+n
+Deseja que seja mostrada a lista organizada apos cada metodo? (S/N)
+n
+
+Tempo em milissegundos Bubble Sort: 26096.131801605225
+
+Tempo em milissegundos Selection Sort: 10927.908420562744
+
+Tempo em milissegundos Insertion Sort: 2.941608428955078
+
+Tempo em milissegundos Counting Sort: 32.93776512145996
+
+Tempo em milissegundos Merge Sort: 48.54583740234375
+
+
+Process finished with exit code 0
