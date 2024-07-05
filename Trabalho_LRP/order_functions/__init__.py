@@ -75,8 +75,8 @@ def counting_sort(lista, mostrar_lista_organizada):
 def merge_sort(lista):
     if len(lista) > 1:
         mid = len(lista) // 2
-        L = lista[:mid]
-        R = lista[mid:]
+        left = lista[:mid]
+        right = lista[mid:]
 
         merge_sort(L)
         merge_sort(R)
