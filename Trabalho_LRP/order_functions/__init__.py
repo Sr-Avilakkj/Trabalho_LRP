@@ -78,26 +78,26 @@ def merge_sort(lista):
         left = lista[:mid]
         right = lista[mid:]
 
-        merge_sort(L)
-        merge_sort(R)
+        merge_sort(left)
+        merge_sort(right)
 
         i = j = k = 0
 
-        while i < len(L) and j < len(R):
-            if L[i] < R[j]:
-                lista[k] = L[i]
+        while i < len(left) and j < len(right):
+            if left[i] < right[j]:
+                lista[k] = left[i]
                 i += 1
             else:
-                lista[k] = R[j]
+                lista[k] = right[j]
                 j += 1
             k += 1
 
-        while i < len(L):
-            lista[k] = L[i]
+        while i < len(left):
+            lista[k] = left[i]
             i += 1
             k += 1
 
-        while j < len(R):
-            lista[k] = R[j]
+        while j < len(right):
+            lista[k] = right[j]
             j += 1
             k += 1
