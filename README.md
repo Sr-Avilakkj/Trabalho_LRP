@@ -5,5 +5,5 @@
 
 
 Feito por:
-Isaac Ávila Diniz da Silva
+Isaac Ávila Diniz da Silva;
 Pedro Lucas Lima Pierre
